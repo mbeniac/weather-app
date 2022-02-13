@@ -26,5 +26,8 @@ ul {
   margin: 20px auto;
 }
 #temp {
-  font-size: medium;
+  font-size: 40px;
+}
+#temps {
+  position: relative;
 }
