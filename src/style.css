@@ -1,3 +1,13 @@
+body {
+  font-style: Helvetica, sans-serif;
+}
 h1 {
-  color: blue;
+  color: #2a6071;
+}
+.weather_app_wrap {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #00ad9f;
+  border-radius: 20px;
 }
