@@ -3,6 +3,7 @@ body {
 }
 h1 {
   color: #2a6071;
+  margin-bottom: 0 auto;
 }
 .weather_app_wrap {
   margin: 20px auto;
@@ -10,4 +11,13 @@ h1 {
   padding: 20px;
   border: 1px solid #00ad9f;
   border-radius: 20px;
+}
+li {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+ul {
+  margin: 0 auto;
+  padding: 0;
 }
