@@ -25,12 +25,24 @@ ul {
   max-width: 600px;
   margin: 20px auto;
 }
-#temp {
-  font-size: 30px;
-}
+
 .overview {
   margin-bottom: 0 auto;
 }
 .weather-temperature img {
   margin-right: 10 px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
