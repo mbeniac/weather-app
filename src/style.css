@@ -25,3 +25,6 @@ ul {
   max-width: 600px;
   margin: 20px auto;
 }
+#temp {
+  font-size: medium;
+}
