@@ -6,8 +6,8 @@ h1 {
   margin-bottom: 0 auto;
 }
 .weather_app_wrap {
-  margin: 20px auto;
   max-width: 600px;
+  margin: 20px auto;
   padding: 20px;
   border: 1px solid #00ad9f;
   border-radius: 20px;
@@ -26,8 +26,11 @@ ul {
   margin: 20px auto;
 }
 #temp {
-  font-size: 40px;
+  font-size: 30px;
 }
-#temps {
-  position: relative;
+.overview {
+  margin-bottom: 0 auto;
+}
+.weather-temperature img {
+  margin-right: 10 px;
 }

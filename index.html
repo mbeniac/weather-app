@@ -17,38 +17,41 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather_app_wrap">
-        <div class = "wearther_app_wrapper">
-        <h1>Your Local Weather!</h1>
-        <h2>Chicago, IL</h2>
-        <h3>Saturday 1:00pm</h3>
-        <div class="row">
-          <div class="col-6">
-            <div class+"clearfix">
-            <img
-              src="//ssl.gstatic.com/onebox/weather/64/sunny.png"
-              alt=""clear"
-              class="float-left"
-            />
-            <span id= "temp"><strong>25</strong></span>
-           <span id="temps"> ℃ | ℉ </span>
-                    </div>
+      <div class="wearther_app_wrapper">
+        <div class="weather_app_wrap">
+          <div class="overview">
+            <h1>Your Local Weather!</h1>
+            <h2>Chicago, IL</h2>
+            <h3>Saturday 1:00pm</h3>
           </div>
-          <div class="col-6">
-            <ul>
-              <li>Precipitation: 0%</li>
-              <li>Humidity: 45%</li>
-              <li>Wind: 8mph</li>
-            </ul>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img
+                  src="//ssl.gstatic.com/onebox/weather/64/sunny.png"
+                  alt="clear"
+                  class="float-left"
+                />
+                <div class="float-left">
+                  <strong id="temp">25</strong> ℃ | ℉
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Precipitation: 0%</li>
+                <li>Humidity: 45%</li>
+                <li>Wind: 8mph</li>
+              </ul>
+            </div>
           </div>
+          <small>
+            <a href="https://github.com/mbeniac/weather-app" target="_blank"
+              >Open-source code</a
+            >
+            by Mandy Beniac
+          </small>
         </div>
-      </div>
-      <small>
-        <a href="https://github.com/mbeniac/weather-app" target="_blank"
-          >Open-source code</a
-        >
-        by Mandy Beniac
-      </small>
       </div>
     </div>
   </body>
