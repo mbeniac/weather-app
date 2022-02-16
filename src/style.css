@@ -50,3 +50,7 @@ ul {
 #description {
   text-transform: capitalize;
 }
+
+h3: first-letter {
+  text-transform: capitalize;
+}
