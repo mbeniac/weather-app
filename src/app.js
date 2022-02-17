@@ -44,8 +44,16 @@ function displayTemperature(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
+function search(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input");
+}
+
 let apiKey = "c3be0ab72af9c5b189f134b093f111bc";
 let city = "Chicago";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", search);
