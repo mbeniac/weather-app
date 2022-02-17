@@ -17,63 +17,61 @@
   </head>
   <body>
     <div class="container">
-      <div class="wearther_app_wrapper">
-        <div class="weather_app_wrap">
-          <div class="overview">
-            <h1>Check the Weather!</h1>
-            <form id="search-form" class="mb-3">
-              <div class="row">
-                <div class="col-9">
-                  <input
-                    type="search"
-                    placeholder="Type a city..."
-                    class="form-control"
-                    id="city-input"
-                    autocomplete="off"
-                  />
-                </div>
-                <div class="col-3">
-                  <input
-                    type="submit"
-                    value="search"
-                    class="btn btn-primary w-100"
-                  />
-                </div>
+      <div class="weather-app-wrap">
+        <div class="overview">
+          <h1>Check the Weather!</h1>
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Type a city..."
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
+                />
               </div>
-            </form>
-            <h2 id="city"></h2>
-            <h3>Last updated: <span id="date"></span></h3>
-            <h4 id="description"></h4>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <div class="clearfix weather-temperature">
-                <img src="" alt="clear" id="icon" class="float-left" />
-                <div class="float-left">
-                  <strong id="temperature"></strong
-                  ><span class="units"
-                    ><a href="#" id="celsius-link" class="active">℃</a> |
-                    <a href="#" id="fahrenheit-link">℉</a></span
-                  >
-                </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="search"
+                  class="btn btn-primary w-100"
+                />
               </div>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span>Km/H</li>
-              </ul>
-            </div>
-          </div>
-          <small>
-            <a href="https://github.com/mbeniac/weather-app" target="_blank"
-              >Open-source code</a
-            >
-            by Mandy Beniac
-          </small>
+          </form>
+          <h4 id="city"></h2>
+          <h5>Last updated: <span id="date"></span></h3>
+          <h6 id="description"></h4>
         </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="clearfix weather-temperature">
+              <img src="" alt="clear" id="icon" class="float-left" />
+              <div class="float-left">
+                <strong id="temperature"></strong
+                ><span class="units"
+                  ><a href="#" id="celsius-link" class="active">℃</a> |
+                  <a href="#" id="fahrenheit-link">℉</a></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span>Km/H</li>
+            </ul>
+          </div>
+        </div>
+        <small>
+          <a href="https://github.com/mbeniac/weather-app" target="_blank"
+            >Open-source code</a
+          >
+          by Mandy Beniac
+        </small>
       </div>
     </div>
+    <script src="src/app.js"></script>
   </body>
-  <script src="src/app.js"></script>
 </html>

@@ -6,7 +6,7 @@ h1 {
   margin-bottom: 0 auto;
   text-align: center;
 }
-.weather_app_wrap {
+.weather-app-wrap {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
@@ -52,7 +52,7 @@ ul {
   text-transform: capitalize;
 }
 
-h3: first-letter {
+h4: first-letter {
   text-transform: capitalize;
 }
 
