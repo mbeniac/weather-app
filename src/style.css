@@ -4,6 +4,7 @@ body {
 h1 {
   color: #2a6071;
   margin-bottom: 0 auto;
+  text-align: center;
 }
 .weather_app_wrap {
   max-width: 600px;
